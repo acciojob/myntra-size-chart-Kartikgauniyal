@@ -3,9 +3,24 @@
 
 thead{background-color:#c0504d;
 	  color:white
+	  
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-	padding-right:60px}
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+	 border: 1px solid #ddd;
+    }
+
+     td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: right;
+    }
+
+ td:first-child{
+      text-align: left;
+    }
+
+
 
